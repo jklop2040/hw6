@@ -5,7 +5,7 @@
 // your new key right away.
 
 // For this exercise, we'll be using the "now playing" API endpoint
-// https://api.themoviedb.org/3/movie/now_playing?api_key=${apiKey}&language=en-US
+// https://api.themoviedb.org/3/movie/now_playing?api_key=${06eedbe6a608cb7a6fd715ec5b069f32}&language=en-US
 
 // Note: image data returned by the API will only give you the filename;
 // prepend with `https://image.tmdb.org/t/p/w500/` to get the 
@@ -17,7 +17,10 @@ window.addEventListener('DOMContentLoaded', async function(event) {
   // movies. Write the contents of this array to the JavaScript
   // console to ensure you've got good data
   // ⬇️ ⬇️ ⬇️
-
+  document.querySelector('form').addEventListener('submit', async function(event) {
+    event.preventDefault()
+    
+  }
   // ⬆️ ⬆️ ⬆️ 
   // End Step 1
   
